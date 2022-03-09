@@ -15,7 +15,7 @@ public class ReverseArray {
 
         for (int number = firstArray.length -1; number >= 0; number--) {
 
-            newArray[firstArray.length -1 - number] = firstArray[number];
+            newArray[firstArray.length -1 -number] = firstArray[number];
 
         }
 
